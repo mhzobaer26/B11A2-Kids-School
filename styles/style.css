@@ -15,8 +15,7 @@
 }
 
 body {
-    background-color: #F5F5F5;
-    background-image: url(../assets/bg.png);
+    background-image: url(../assets/bg.png), linear-gradient(#ffffff, #fbd29c);
 }
 
 /** Header Section **/
@@ -126,9 +125,8 @@ body {
 
 /* marquee */
 .marquee {
-    background-color: #f5edde;
-    color: #8f5903;
-    font-size: 18px;
+    color: #8e5b0a;
+    font-size: 25px;
     font-weight: 700;
 }
 
@@ -207,7 +205,15 @@ body {
     border-radius: 12px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
 }
-
+.SC-box-1 {
+    background: linear-gradient(0deg, #ffffff, #cfe9ff);
+}
+.SC-box-2 {
+    background: linear-gradient(0deg, #ffffff, #f8f8e3);
+}
+.SC-box-3 {
+    background: linear-gradient(0deg, #ffffff, #efdefc);
+}
 .all-box-heading {
     font-weight: 700;
     padding: 10px 0px 10px 0px;
@@ -221,7 +227,7 @@ body {
 }
 
 .all-box button {
-
+    background-color:whitesmoke;
     border: none;
     border-radius: 7px;
     padding: 13px 30px;
@@ -231,13 +237,20 @@ body {
 .SC-box-1 button {
     color: #64C8FF;
 }
-
+.SC-box-1 button:hover {
+    color: #07a6fb;
+}
 .SC-box-2 button {
     color: #F0AA00;
 }
-
+.SC-box-2 button:hover {
+    color: #9f6f00;
+}
 .SC-box-3 button {
     color: #8700FF;
+}
+.SC-box-3 button:hover {
+    color: #5701a2;
 }
 
 /* Button Arrows */
@@ -263,7 +276,9 @@ body {
     justify-content: center;
     cursor: pointer;
 }
-
+.circle-button:hover{
+    background-color: rgb(124, 82, 2);
+}
 
 /* Stories Section */
 .our-stories h2 {
@@ -537,6 +552,7 @@ body {
     .all-box button {
         font-size: 13px;
         padding: 8px 16px;
+        background-color: rgb(255, 245, 245);
     }
 
 
